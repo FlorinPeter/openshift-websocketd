@@ -1,4 +1,4 @@
-FROM centos7:centos7
+FROM my-centos7:latest
 
 MAINTAINER Florin Peter 
 
