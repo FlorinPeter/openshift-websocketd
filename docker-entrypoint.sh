@@ -2,7 +2,7 @@
 set -e
 
 if [ "$1" = 'websocketd' ]; then
-	exec gosu websocketd "$@"
+	exec "$@"
 fi
 
 exec "$@"
