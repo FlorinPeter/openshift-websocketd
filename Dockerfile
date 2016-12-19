@@ -1,4 +1,4 @@
-FROM my-rhel7.3:latest
+FROM centos7:centos7
 
 MAINTAINER Florin Peter 
 
