@@ -6,8 +6,9 @@ RUN yum -y install wget unzip && yum clean all -y
 
 ADD my-program /bin/my-program.sh
 ADD https://github.com/joewalnes/websocketd/releases/download/v0.2.11/websocketd-0.2.11-linux_amd64.zip /tmp/
-RUN ls -la /tmp/
-ADD /tmp/websocketd-0.2.11-linux_amd64.zip /bin/
+RUN pwd
+RUN cd /tmp/
+ADD websocketd-0.2.11-linux_amd64.zip /bin/
 RUN chmod +x /bin/my-program.sh
 RUN chmod +x /bin/websocketd
 
