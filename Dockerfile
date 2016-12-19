@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/rhel7:latest
+FROM my-rhel7.3:latest
 
 MAINTAINER Florin Peter 
 
